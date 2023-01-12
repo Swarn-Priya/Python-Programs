@@ -1,0 +1,40 @@
+#Which are valid/invalid strings
+print('This is Python class')
+# valid
+
+print("This is Python class")
+# valid
+
+print('''This is Python class''')
+# valid
+
+print("""This is Python class""")
+# valid
+
+# print('This is Python's class')
+# invalid
+
+# print("Learnbay provides "Java", "Python" classes")
+# invalid
+
+print("Learnbay provides 'Java', 'Python' classes")
+# valid
+
+print("This is Python's class")
+# valid/invalid
+
+print("""Learnbay provides "Java", "Python" classes""")
+# valid
+
+print('''Learnbay provides "Java", "Python" classes''')
+# valid
+
+print('''Learnbay provides
+"Java", "Python" 
+classes''')
+# valid
+
+# print('This is
+# Python 
+# class')
+# # invalid
